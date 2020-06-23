@@ -1,0 +1,248 @@
+
+#customers{
+	display: inline-flex;
+	flex-direction: row;
+	float: left;
+	border: 5px solid brown;
+	padding: 15px;
+}
+#customers label{
+	display: block;
+}
+#customers input{
+	margin-bottom: 20px;
+}
+#customers button{
+	display: block;
+}
+#customers-table{
+	padding: 15px;
+
+	border-radius: 10px;
+	margin: 20px;
+	overflow: scroll;
+	height: 450px;
+	color: white;
+}
+
+#customers-table button{
+	text-align: center;
+	text-decoration: none;
+}
+
+#customers-table h1{
+	color: white;
+}
+
+#btn-pdf{
+	background-color: red;
+	border-radius: 50%;
+	padding: 16px 16px;
+	font-size: 16px;
+	color: white;
+	display: inline-block;
+}
+
+#btn-new{
+	background-color: green;
+	border-radius: 50%;
+	padding: 16px 16px;
+	font-size: 16px;
+	color: white;
+	display: inline-block;
+}
+
+#btn-del{
+	display: inline-block;
+	visibility: hidden;
+}
+
+
+#factura{
+	display: inline-flex;
+	flex-direction: column;
+	width: 1000px;
+	float: right;
+	padding:12px;
+	margin-bottom: 20px;
+}
+
+.info{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid black;
+	border-radius: 20px;
+	border-bottom: none;
+}
+
+#info-ordine{
+	background-color: #cccccc;
+	height: 200px;
+	border-radius: 50px;
+	padding: 20px;
+}
+
+#info-ordine input{
+	background-color: #cccccc;
+	border:none;
+	border-bottom: 3px solid black;
+	margin-bottom: 20px;
+}
+
+#info-client{
+	line-height: 2.0;
+}
+h1{
+	text-align: center;
+}
+.produse{
+	padding: 10px;
+}
+
+.produse table{
+	border: 2px solid black;
+	border-radius: 5px;
+
+}
+
+.produse th{
+	border-bottom: 2px solid black;
+}
+
+.produse th, .produse td{
+	border-left: 2px solid black;
+}
+
+.produse th,td:first-child{
+	border-left: none;
+}
+
+.produse th{
+	background-color: #cccccc;
+
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	font-size: 16px;
+	resize: none;
+	border: 0 solid white;
+}
+
+input{
+	text-decoration: none;
+	border: 1px solid white;
+	border-bottom: 1px solid gray;
+}
+div{
+	padding: 5px;
+}
+.contact{
+	line-height: 1.4;
+	display: flex;
+	flex-direction: row;
+	border-radius: 20px;
+	font-size: 1em;
+	border: 2px solid black;
+	border-top: none;
+}
+#contact-stamp {
+	width: 15%;
+	border-right: 2px solid black;
+	margin-right: 9px;
+}
+
+#contact-info{
+	border-right: 2px solid black;
+	margin-right: 9px;
+}
+
+.contact textarea {
+	width: 100%;
+	height: 130px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 0 solid white;
+	font-size: 16px;
+	resize: none;
+}
+#ct{
+	margin: 5px;
+	border-left: 2px solid black;
+	padding: 10px;
+}
+
+#ct h1{
+	background-color: black;
+	color: white;
+}
+.clickClient{
+	margin-bottom: 5px;
+	color: black;
+}
+
+#factura-chitanta{
+	display:flex;
+	flex-direction: column;
+	width: 1000px;
+	float: right;
+	padding-right: 100px;
+}
+
+.chitanta{
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 50px;
+}
+
+#chitanta-info{
+	display: flex;
+	font-size: 1em;
+	margin:auto;
+}
+
+#chitanta-info-info input{
+	display: block;
+}
+
+
+
+.chitanta table{
+	font-size: 0.9em;
+}
+
+#chitanta-date input{
+	border-bottom: 2px dotted;
+}
+
+#chitanta-date{
+	padding-top: 20px;
+	margin: auto;
+	line-height: normal;
+}
+
+#chitanta-info-info h2{
+	margin: 0;
+	padding: 0;
+}
+
+#chitanta-info-info{
+	background-color: #cccccc;
+	height: 200px;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+#chitanta-info-info input{
+	background-color: #cccccc;
+	border:none;
+	border-bottom: 2px solid black;
+
+}
