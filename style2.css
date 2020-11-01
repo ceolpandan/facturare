@@ -1,0 +1,294 @@
+
+#customers{
+	display: inline-flex;
+	flex-direction: row;
+	/* float: left; */
+	
+	padding: 15px;
+	background-color: rgb(0, 112, 97);
+	color: white;
+}
+#customers label{
+	display: block;
+	font-size: 1.5 rem;
+}
+#customers input{
+	margin-bottom: 20px;
+}
+#owner{
+	display: block;
+}
+input, button{
+	outline: none;
+}
+
+#customers button{
+	display: block;
+}
+#customers button:hover {
+	background-color:#5cbf2a;
+}
+#btn-pdf:hover{
+	background-color: silver;
+}
+#customers button:active {
+	position:relative;
+	top:1px;
+}
+#customers-table{
+	padding: 5px;
+
+	border-radius: 10px;
+	margin: 0px;
+	overflow: scroll;
+	height: 450px;
+	color: white;
+}
+#customers-table::-webkit-scrollbar{
+	display: none;
+}
+
+#customers-table button{
+	text-align: center;
+	text-decoration: none;
+	background-color:#90d1a2;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:18px;
+	font-style:italic;
+	padding:14px 29px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+#customers-table h1{
+	color: white;
+	
+}
+
+#btn-pdf{
+	background-color: red;
+	border-radius: 50%;
+	padding: 16px 16px;
+	font-size: 16px;
+	color: white;
+	display: inline-block;
+}
+
+#btn-new{
+	background-color:#ffec64;
+	padding: 16px 16px;
+	font-size: 16px;
+	color: white;
+	display: inline-block;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+
+#btn-del{
+	display: inline-block;
+	visibility: hidden;
+}
+
+#btn-new:hover{
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+
+
+#factura{
+	display: inline-flex;
+	flex-direction: column;
+	width: 1000px;
+	float: right;
+	padding:12px;
+	margin-bottom: 20px;
+}
+
+.info{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid black;
+	border-radius: 20px;
+	border-bottom: none;
+}
+
+#info-ordine{
+	background-color: #cccccc;
+	height: 200px;
+	border-radius: 50px;
+	padding: 20px;
+}
+
+#info-ordine input{
+	background-color: #cccccc;
+	border:none;
+	border-bottom: 3px solid black;
+	margin-bottom: 20px;
+}
+
+#info-client{
+	line-height: 2.0;
+}
+h1{
+	text-align: center;
+}
+.produse{
+	padding: 10px;
+}
+
+.produse table{
+	border: 2px solid black;
+	border-radius: 5px;
+
+}
+
+.produse th{
+	border-bottom: 2px solid black;
+}
+
+.produse th, .produse td{
+	border-left: 2px solid black;
+}
+
+.produse th,td:first-child{
+	border-left: none;
+}
+
+.produse th{
+	background-color: #cccccc;
+
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	font-size: 16px;
+	resize: none;
+	border: 0 solid white;
+}
+
+input{
+	text-decoration: none;
+	border: 1px solid white;
+	border-bottom: 1px solid gray;
+}
+div{
+	padding: 5px;
+}
+.contact{
+	line-height: 1.4;
+	display: flex;
+	flex-direction: row;
+	border-radius: 20px;
+	font-size: 1em;
+	border: 2px solid black;
+	border-top: none;
+}
+#contact-stamp {
+	width: 15%;
+	border-right: 2px solid black;
+	margin-right: 9px;
+}
+
+#contact-info{
+	border-right: 2px solid black;
+	margin-right: 9px;
+}
+
+.contact textarea {
+	width: 100%;
+	height: 130px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 0 solid white;
+	font-size: 16px;
+	resize: none;
+}
+#ct{
+	margin: 5px;
+	border-left: 2px solid black;
+	padding: 10px;
+}
+
+#ct h1{
+	background-color: rgb(0, 112, 97);
+	color: rgba(90, 222, 255, 0.863);
+}
+
+#factura-chitanta{
+	display:flex;
+	flex-direction: column;
+	width: 1000px;
+	float: right;
+	padding-right: 100px;
+}
+
+.chitanta{
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 50px;
+}
+
+#chitanta-info{
+	display: flex;
+	font-size: 1em;
+	margin:auto;
+}
+
+#chitanta-info-info input{
+	display: block;
+}
+
+
+
+.chitanta table{
+	font-size: 0.9em;
+}
+
+#chitanta-date input{
+	border-bottom: 2px dotted;
+}
+
+#chitanta-date{
+	padding-top: 20px;
+	margin: auto;
+	line-height: normal;
+}
+
+#chitanta-info-info h2{
+	margin: 0;
+	padding: 0;
+}
+
+#chitanta-info-info{
+	background-color: #cccccc;
+	height: 200px;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+#chitanta-info-info input{
+	background-color: #cccccc;
+	border:none;
+	border-bottom: 2px solid black;
+
+}
+
